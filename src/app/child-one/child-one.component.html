@@ -1,0 +1,14 @@
+<p>{{title}}</p>
+
+<div>
+  Add Product
+
+  <div>
+    <label for=""> Product Name</label>
+    <input type="text" #newProduct>
+  </div>
+  <div>
+    <button (click) = "addNewProduct(newProduct.value)"> Add to Parent</button>
+  </div>
+</div>
+
