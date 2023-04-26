@@ -1,0 +1,12 @@
+<p>add-product works!</p>
+<div>
+  <label for="name">Product Name</label>
+  <div>
+    <input type="text" [(ngModel)] = "productName" #newItem>
+  </div>
+  <div>
+    <button (click) = "addNewProduct(newItem.value)">
+      Add
+    </button>
+  </div>
+</div>

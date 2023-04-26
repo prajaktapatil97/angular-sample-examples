@@ -1,0 +1,4 @@
+<p>{{selectedProductName}}</p>
+<!-- <a routerLink = "/add-product"  >Add Product Data</a> -->
+<app-add-product routerLink = "/add-product" (newProductAdded) = "addedProduct($event)"></app-add-product>
+<!-- <div *ngIf = "product">{{product}}</div> -->
